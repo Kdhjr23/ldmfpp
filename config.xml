@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.phonegap.example"
+    version   = "1.2.0">
+
+<name>Icon and Splash Demo</name>
+
+<description>
+Basic application to test and demonstrate icons and splash screens.
+</description>
+
+ <author href="http://phonegap.com" email="support@phonegap.com">
+        PhoneGap Team
+    </author>
+
+<preference name="phonegap-version" value="1.2.0" />
+
+<!-- Icons -->
+
+<icon src="icon.png" />
+<icon src="image/png/youtube.png" gap:platform="android" gap:density="ldpi"/>
+<icon src="image/png/calendar.png" gap:platform="android" gap:density="ldpi"/>
+<icon src="image/png/earth.png"  gap:platform="android" gap:density="ldpi" />
+<icon src="image/png/lines.png"  gap:platform="android" gap:density="ldpi" />
+<icon src="image/png/tv.png"  gap:platform="android" gap:density="ldpi" />
+<icon src="image/png/location2.png" gap:platform="android" gap:density="ldpi" />
+<icon src="image/png/earth.png" gap:platform="android" gap:density="ldpi" />
+<icon src="image/png/info.png" gap:platform="android" gap:density="ldpi"/>
+<icon src="icons/winphone/icon.png" gap:platform="android" gap:density="ldpi" />
+
+<icon src="icon.png" />
+<icon src="image/png/youtube.png" gap:platform="ios" width="30" height="30" />
+<icon src="image/png/calendar.png" gap:platform="ios" width="30" height="30"/>
+<icon src="image/png/earth.png"  gap:platform="ios" width="30" height="30" />
+<icon src="image/png/lines.png"  gap:platform="ios" width="30" height="30" />
+<icon src="image/png/tv.png"  gap:platform="ios" width="30" height="30" />
+<icon src="image/png/location2.png" gap:platform="ios" width="30" height="30" />
+<icon src="image/png/earth.png" gap:platform="ios" width="30" height="30"/>
+<icon src="image/png/info.png" gap:platform="ios" width="30" height="30"/>
+<icon src="icons/winphone/icon.png" gap:platform="ios" width="30" height="30" />
+<!-- winphone requires a jpg for the tile icons -->
+
+</widget>
